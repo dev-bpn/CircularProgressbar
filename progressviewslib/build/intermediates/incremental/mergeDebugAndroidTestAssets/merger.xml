@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="/home/bpn/AndroidStudioProject/AndroidStudioProjects/CircularProgressbar/progressviewslib/build/intermediates/bundles/debug/assets"/></dataSet><dataSet config="main"><source path="/home/bpn/AndroidStudioProject/AndroidStudioProjects/CircularProgressbar/progressviewslib/src/androidTest/assets"/><source path="/home/bpn/AndroidStudioProject/AndroidStudioProjects/CircularProgressbar/progressviewslib/build/generated/assets/shaders/androidTest/debug"/></dataSet></merger>

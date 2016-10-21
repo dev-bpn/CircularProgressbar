@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#3187a4"
+    tools:context="com.mobotechnology.www.circularprogressbar.MainActivity">
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <com.natasa.progressviews.CircleProgressBar
+        android:id="@+id/circle_progress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:bar_color="#ffffff"
+        app:bar_width="15dp"
+        app:progress="0"
+        app:progress_color="#2382a3"
+        app:progress_width="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
