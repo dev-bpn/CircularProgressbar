@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         circleProgressBar.setTextSize(62);
         circleProgressBar.setTextColor(Color.WHITE);
         circleProgressBar.setText("1");
-        circleProgressBar.setMaximumProgress(50);
+        circleProgressBar.setMaximumProgress(100);
         circleProgressBar.setStartPositionInDegrees(90);
         //you can set listener for progress in every ProgressView
         circleProgressBar.setOnProgressViewListener(new OnProgressViewListener() {
